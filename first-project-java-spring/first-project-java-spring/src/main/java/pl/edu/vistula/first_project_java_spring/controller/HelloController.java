@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 public class HelloController {
 
     @GetMapping("/")
-    @ResponseBody // This tells Spring to send this string as text, not as an HTML file
+    @ResponseBody
     public String hello() {
         return "Hello Vistula, in my first Spring controller.";
     }
