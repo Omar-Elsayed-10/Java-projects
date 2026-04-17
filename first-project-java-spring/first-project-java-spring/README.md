@@ -5,8 +5,8 @@ This is my first web application built using the **Spring Boot** framework and *
 
 ### 1. Home Page 
 The application handles a basic request at the root URL. This demonstrates the use of `@GetMapping` and `@ResponseBody`.
- **URL:** `http://localhost:8080/`
- **Description:** Returns a simple string message directly to the browser.
+ * **URL:** `http://localhost:8080/`
+ * **Description:** Returns a simple string message directly to the browser.
 
 <img width="2528" height="1338" alt="Screenshot 2026-04-18 012949" src="https://github.com/user-attachments/assets/e9dc1d61-2397-4c80-9052-3f7da953a1e0" />
 
