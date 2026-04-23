@@ -1,0 +1,32 @@
+### 1. Create a Product
+POST http://localhost:8080/api/products
+Content-Type: application/json
+
+{
+  "name": "My New Product"
+}
+
+###
+
+### 2. Find All Products
+GET http://localhost:8080/api/products
+
+###
+
+### 3. Find Product by ID
+GET http://localhost:8080/api/products/1
+
+###
+
+### 4. Update a Product
+PUT http://localhost:8080/api/products/1
+Content-Type: application/json
+
+{
+  "name": "Updated Product Name"
+}
+
+###
+
+### 5. Delete a Product
+DELETE http://localhost:8080/api/products/1
