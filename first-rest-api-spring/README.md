@@ -40,6 +40,9 @@ To inspect the live data stored in your database:
 * **JDBC URL:** `jdbc:h2:mem:testdb`
 * **User:** `sa`
 * **Password:** *(leave blank)*
+<img width="1749" height="638" alt="image" src="https://github.com/user-attachments/assets/9692fc4c-dd49-42a5-9955-a0f1239e78c2" />
+
+
 
 ## ⚙️ Configuration
 The project is configured via `src/main/resources/application.properties`. It includes settings for:
