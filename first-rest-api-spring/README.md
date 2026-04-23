@@ -28,6 +28,9 @@ The project follows a package-by-feature structure:
 | **DELETE** | `/api/v1/products/{id}` | Remove a product |
 | **GET** | `/api/v1/products/search?name=...` | Search products by name (case-insensitive) |
 
+<img width="2048" height="819" alt="image" src="https://github.com/user-attachments/assets/42e8ec9c-120a-419f-bfa3-efea9c34f6b8" />
+
+
 ## 🧪 Testing the API
 
 ### 1. Swagger UI
