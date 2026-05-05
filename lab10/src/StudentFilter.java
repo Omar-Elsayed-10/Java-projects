@@ -3,8 +3,7 @@ import java.nio.charset.StandardCharsets;
 
 public class StudentFilter {
     public static void main(String[] args) {
-        // Since your file is in 'src', we include that in the path
-        // Alternatively, move the file to the project root and use "studentsEN.txt"
+        
         String inputFileName = "src/studentsEN.txt";
         String outputFileName = "students_grade_5.txt";
 
@@ -19,7 +18,6 @@ public class StudentFilter {
             int count = 0;
 
             while ((line = reader.readLine()) != null) {
-                // We trim the line to remove hidden spaces and check if it ends with "5"
                 if (line.trim().endsWith("5")) {
                     writer.write(line);
                     writer.newLine();
